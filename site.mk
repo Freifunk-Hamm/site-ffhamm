@@ -6,9 +6,9 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-contact-info \
 	gluon-config-mode-core \
-	gluon-config-mode-mesh-vpn \
 	gluon-config-mode-geo-location \
 	gluon-config-mode-hostname \
+	gluon-config-mode-tunneldigger \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-luci-admin \
@@ -16,16 +16,20 @@ GLUON_SITE_PACKAGES := \
 	gluon-luci-portconfig \
 	gluon-luci-private-wifi \
 	gluon-luci-wifi-config \
+	gluon-mesh-batman-adv-15 \
+	gluon-mesh-vpn-tunneldigger \
 	gluon-next-node \
-	gluon-mesh-batman-adv-14 \
-	gluon-mesh-vpn-fastd \
-	uradvd \
-	gluon-status-page \
+	gluon-radvd \
 	gluon-setup-mode \
+	gluon-status-page \
 	haveged \
 	iptables \
-	iwinfo
-	 
+	gluon-tunneldigger-watchdog \
+	gluon-migrate-vpn \
+	iwinfo \
+	gluon-ssid-changer \
+	gluon-config-mode-show-mac \
+	gluon-rfkill-disable
 
 GLUON_PRIORITY ?= 3
 GLUON_LANGS ?= en de
